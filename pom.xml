@@ -17,6 +17,10 @@
 			<id>jcenter.bintray.com</id>
 			<url>https://jcenter.bintray.com</url>
 		</repository>
+		<repository>
+			<id>Sonatype OSS Snapshot Repository</id>
+			<url>http://oss.sonatype.org/content/repositories/snapshots</url>
+		</repository>
 	</repositories>
 	<dependencyManagement>
 		<dependencies>
@@ -33,12 +37,12 @@
 		<dependency>
 			<groupId>com.github.sarxos</groupId>
 			<artifactId>webcam-capture-driver-v4l4j</artifactId>
-			<version>0.3.13.1</version>
+			<version>0.3.13-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.sarxos</groupId>
 			<artifactId>webcam-capture</artifactId>
-			<version>0.3.12</version>
+			<version>0.3.13-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>io.micronaut</groupId>

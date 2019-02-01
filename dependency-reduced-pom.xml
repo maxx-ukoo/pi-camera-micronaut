@@ -101,6 +101,10 @@
       <id>jcenter.bintray.com</id>
       <url>https://jcenter.bintray.com</url>
     </repository>
+    <repository>
+      <id>Sonatype OSS Snapshot Repository</id>
+      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+    </repository>
   </repositories>
   <dependencies>
     <dependency>
