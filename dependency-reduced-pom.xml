@@ -106,7 +106,7 @@
     <dependency>
       <groupId>io.micronaut</groupId>
       <artifactId>micronaut-inject-java</artifactId>
-      <version>1.0.3</version>
+      <version>1.0.4</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -143,7 +143,7 @@
     <jdk.version>1.8</jdk.version>
     <exec.mainClass>pi.camera.micronaut.Application</exec.mainClass>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <micronaut.version>1.0.3</micronaut.version>
+    <micronaut.version>1.0.4</micronaut.version>
   </properties>
 </project>
 

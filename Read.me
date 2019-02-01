@@ -1,0 +1,23 @@
+Caused by: java.lang.UnsatisfiedLinkError: /tmp/libs2710394204338383682/libvideo.so: libjpeg.so.8: cannot open shared object file: No such file or directory
+        at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+        at java.lang.ClassLoader.loadLibrary0(ClassLoader.java:1938)
+        at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1854)
+        at java.lang.Runtime.loadLibrary0(Runtime.java:870)
+        at java.lang.System.loadLibrary(System.java:1122)
+        at com.github.sarxos.v4l4j.NativeUtils.loadLibraryFromJar(NativeUtils.java:98)
+        at com.github.sarxos.v4l4j.V4L4J.init(V4L4J.java:50)
+        at com.github.sarxos.webcam.ds.v4l4j.V4l4jDriver.<clinit>(V4l4jDriver.java:33)
+        at pi.camera.micronaut.controller.ImageController.<clinit>(ImageController.java:21)
+        at pi.camera.micronaut.controller.$ImageControllerDefinition.build(Unknown Source)
+        at io.micronaut.context.DefaultBeanContext.doCreateBean(DefaultBeanContext.java:1331)
+        ... 28 common frames omitted
+		
+		
+		aused by: java.lang.UnsatisfiedLinkError: /tmp/libs7297395543554293627/libvideo.so: libv4lconvert.so.0: cannot open shared object file: No such file or directory
+
+
+sudo apt-get install libjpeg8
+sudo apt-get install libv4l-dev
+
+
+https://www.raspberrypi-spy.co.uk/2013/05/the-official-raspberry-pi-camera-module/
